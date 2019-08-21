@@ -14,7 +14,7 @@ public class testme_report {
 	public void testme_is_up_and_running() {
 	    // Write code here that turns the phrase above into concrete actions
 //	    throw new cucumber.api.PendingException();
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\training_h2a.06.15\\Desktop\\TESTING\\selenium\\SeleniumBroDrivers\\SeleniumBroDrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Driver232\\chromedriver.exe");
 		  driver=new ChromeDriver();
 		  driver.get("http://10.232.237.143:443/TestMeApp/fetchcat.htm");
 		  driver.manage().window().maximize();
